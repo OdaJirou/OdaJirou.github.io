@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mel's Clowder</title>
+    <link rel="icon" href="Images/Clowder.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46d43b2d78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+                <img src="images/ClowderLogoDesign.png" class="logo">
+
+                <ul id="side-menu">
+                        
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#gallery">Gallery</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+
+                <p>
+                    The World's Greatest Duo
+                </p>
+
+                <h1>
+                    "Until the end, It's <br><span>me and you</span>"
+                </h1>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <!-- ----------------aboutUS---------------------- -->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+                    
+                    <img src="Images/ABOUT-US.png">
+
+                </div>
+                <div class="about-col-2">
+                    
+                    <h1 class="sub-title"> My Message and About Us</h1>
+                    <p>
+                        Hello, it's me writing this days before our monthsary, and do I say we have already
+                        achieved and experienced a lot of things. I'm sorry for being a makulit type of person,
+                        I'm sorry i'm a very odoi person, but regardless of what happens, I'm always gonna be here for you.
+                        Happy monthsary baby!<br><br>
+                        It's time to introduce you to both of our players! Diane is boba, and Gideon is Buba.<br><br>
+                    </p>  
+                        
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('diane')">
+                            <b>Diane</b>
+                        </p>
+
+                        <p class="tab-links" onclick="opentab('gideon')">
+                            <b>Gideon</b>
+                        </p>
+
+                        <p class="tab-links" onclick="opentab('conclusion')">
+                            <b>Conclusion</b>
+                        </p>
+                    
+                    </div>
+
+                    <div class="tab-contents active-tab" id="diane">
+
+                        <p>
+                            Diane is the most hardworking and academically smart person, even if she is odoi sometimes in terms of being street smart,
+                            she is still someone you can rely on whenever you are in a situation! She fights like a rabbit and her heart is made of
+                            fluffy teddy bears and butterflies <span>(Batak mag Lux)</span>
+                        </p>
+
+                    </div>
+
+                    <div class="tab-contents" id="gideon">
+
+                        <p>
+                            Gideon is an IT Nerd and Odoi gamer, he is the street smart person that makes boba always laugh (hopefully). 
+                            he likes boba and always loves her, he secretly thinks boba is a dream girl he just brought up once and he was actually
+                            caught in an accident 2 years ago and is ultimately in a hospital somewhere san pedro, anyway... He loves boba and he
+                            fucking rocks in League of Legends and Valorant. <span>Insert story game titles here. </span>Tinatamad na ko magcode eh
+                        </p>
+
+                    </div>
+
+                    <div class="tab-contents" id="conclusion">
+
+                        <p>
+                            They are the best duo and no matter what anyone says fuck y'all we're <span>perfect</span> for each other, this it you guys
+                            🖕
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- ----------------- Gallery -------------------------  -->
+
+<div id="gallery">
+
+    <div class="container">
+
+        <h1 class="aniTitol">Our Animated Gallery</h1>
+
+        <div class="gallery">
+
+            <div class="galImage-box Galactive">
+                    <img src="Images/1.jpg">
+            </div>
+            <div class="galImage-box">
+                    <img src="Images/2.jpg">
+            </div>
+            <div class="galImage-box">
+                    <img src="Images/3.jpg">
+            </div>
+            <div class="galImage-box">
+                    <img src="Images/4.jpg">
+            </div>
+            <div class="galImage-box">
+                    <img src="Images/5.jpg">
+            </div>
+
+
+    </div>
+
+</div>
+
+<!-- --------------- contacts --------------  -->
+
+<div id="contact">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Gideon's contact info -->
+            <div class="contact-left">
+                <h1 class="contact-title">Gideon<br></h1>
+                <img src="Images/gideon.jpg" alt="Gideon" class="contact-image">
+
+                <p>
+                    <i id="copyEmailGideon" class="fa-solid fa-envelope" style="cursor: pointer;"></i>
+                    <span id="emailTextGideon">gideonbisnar2005@gmail.com</span>
+                    <span id="emailCopiedGideon" class="copied-msg">Copied!</span>
+                </p>
+
+                <p>
+                    <i id="copySchoolEmailGideon" class="fa-solid fa-school" style="cursor: pointer;"></i>
+                    <span id="schoolEmailTextGideon">2024ghbisnar@live.mcl.edu.ph</span>
+                    <span id="schoolEmailCopiedGideon" class="copied-msg">Copied!</span>
+                </p>
+
+                <p>
+                    <i id="copyPhoneGideon" class="fa-solid fa-phone" style="cursor: pointer;"></i>
+                    <span id="phoneTextGideon">0945 994 0014</span>
+                    <span id="phoneCopiedGideon" class="copied-msg">Copied!</span>
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/bisnar.gideon/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/g.bsnr/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Diane's contact info -->
+            <div class="contact-right">
+                <h1 class="contact-title">Diane<br></h1>
+                <img src="Images/diane.jpg" alt="Diane" class="contact-image">
+
+                <p>
+                    <i id="copyEmailDiane" class="fa-solid fa-envelope" style="cursor: pointer;"></i>
+                    <span id="emailTextDiane">derpydiane101@gmail.com</span>
+                    <span id="emailCopiedDiane" class="copied-msg">Copied!</span>
+                </p>
+
+                <p>
+                    <i id="copySchoolEmailDiane" class="fa-solid fa-school" style="cursor: pointer;"></i>
+                    <span id="schoolEmailTextDiane">2024dmchurtado@live.mcl.edu.ph</span>
+                    <span id="schoolEmailCopiedDiane" class="copied-msg">Copied!</span>
+                </p>
+
+                <p>
+                    <i id="copyPhoneDiane" class="fa-solid fa-phone" style="cursor: pointer;"></i>
+                    <span id="phoneTextDiane">0905 804 4549</span>
+                    <span id="phoneCopiedDiane" class="copied-msg">Copied!</span>
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/diane.hurtado.940/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/depydi4ne/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        <p> Copyright © Gideon. Made with 💙 by Gideon Bisnar.</p>
+
+    </div>
+
+</div>
+
+
+<!-- --------------- Copy Script ---------------------  -->
+
+<script>
+    // Set up the copy feature for each individual
+    function setupCopyFeature(iconId, textId, messageId) {
+        const icon = document.getElementById(iconId);
+        const text = document.getElementById(textId);
+        const message = document.getElementById(messageId);
+    
+        icon.addEventListener('click', () => {
+            navigator.clipboard.writeText(text.textContent.trim()).then(() => {
+                message.style.display = 'inline';
+                setTimeout(() => {
+                    message.style.display = 'none';
+                }, 2000);
+            });
+        });
+    }
+
+    // Setup copy functionality for Gideon
+    setupCopyFeature('copyEmailGideon', 'emailTextGideon', 'emailCopiedGideon');
+    setupCopyFeature('copySchoolEmailGideon', 'schoolEmailTextGideon', 'schoolEmailCopiedGideon');
+    setupCopyFeature('copyPhoneGideon', 'phoneTextGideon', 'phoneCopiedGideon');
+
+    // Setup copy functionality for Diane
+    setupCopyFeature('copyEmailDiane', 'emailTextDiane', 'emailCopiedDiane');
+    setupCopyFeature('copySchoolEmailDiane', 'schoolEmailTextDiane', 'schoolEmailCopiedDiane');
+    setupCopyFeature('copyPhoneDiane', 'phoneTextDiane', 'phoneCopiedDiane');
+</script>
+
+
+<!-- ------------------- script for about ------------------ -->
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+
+</script>
+
+<!-- ------------ Script for Menu Nav in Mobile -----------  -->
+
+<script>
+
+    var sidemenu = document.getElementById("side-menu");
+
+    function openmenu() {
+
+        sidemenu.style.right = "0px";
+
+    }
+
+
+    function closemenu() {
+
+    sidemenu.style.right = "-200px";
+
+    }
+
+</script>
+
+
+
+</body>
+</html>
